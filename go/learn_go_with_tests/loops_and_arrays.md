@@ -46,6 +46,9 @@ func main() {
 - [N]type{value1, value2, ..., valueN} e.g. numbers := [5]int{1, 2, 3, 4, 5}
 - [...]type{value1, value2, ..., valueN} e.g. numbers := [...]int{1, 2, 3, 4, 5}
 
+## Дополнительные материалы
+[Строки форматирования] https://pkg.go.dev/fmt 
+
 
 
 
