@@ -52,6 +52,8 @@ Staging - место, где файлы изменены, отслеживают
 
 `git push origin master` - запушить ветку master в удалённый репозиторий origin 
 
+`git pull origin master` - вытянуть ветку master из удалённого репозитория origin
+
 
 
 
