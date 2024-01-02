@@ -29,15 +29,32 @@ Staging - место, где файлы изменены, отслеживают
 
 ## Команды в git
 `git init` - создаёт пустой репозиторий. При этом создаётся скрытая папка .git, где хранится история изменений и метаинформация. 
+
 `git log` - показывает список созданных нами коммитов.
+
 `git config --global user.name "vasiliy pupkin"`- указать имя пользователя.
+
 `git config --global user.emai "vpupkin@email.ru"`- указать email пользователя.
+
 `git add file_name` - добавить файлы в staging
+
 `git status` - посмотреть на происходящее в staging
+
 `git commit -m "commit message"` - добавить коммит в текущую ветку
+
 `git show 2fwsf2` - показать более подробно изменения в данном коммите
+
 `git checkout <commit_hash>` - петушествие к коммиту с хэшем commit_hash
+
 `git checkout ->` - петушествие к тому коммиту, из которого делали чекаут
+
+`git remote add origin http://lalla.ru` - добавить удалённый репозиторий, где хранится код. origin - псевдоним для него
+
+`git push origin master` - запушить ветку master в удалённый репозиторий origin 
+
+
+
+
 
 
 
